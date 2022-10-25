@@ -1,7 +1,15 @@
-h1 {
-  color: red;
+.head {
+  background: black;
 }
 
-.h1 {
+head {
+  background: black;
+}
+
+h1 {
   color: red;
+  font-family: Verdana;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
 }
