@@ -1,9 +1,9 @@
-.body {
-  background: black;
+body {
+  background: #000000;
 }
 
-.h1 {
-  color: white;
+h1 {
+  color: #FFFFFF;
   font-family: Verdana;
   font-size: 50px;
   display: flex;
