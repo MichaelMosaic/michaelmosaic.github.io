@@ -10,11 +10,8 @@ h1 {
   justify-content: center;
 }
 
-.download {
-  color: aquamarine;
-  a {
-    color: aquamarine;
-    }
+.download a {
+  color: red;
 }
 
 
