@@ -13,3 +13,12 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+.download {
+  color: aquamarine;
+  a {
+    color: aquamarine;
+    }
+}
+
+
