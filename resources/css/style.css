@@ -39,6 +39,19 @@ h2 {
   }
 }
 
+  a {
+     color: #7FFFD4;
+  }
+  a:hover {
+     color: #7FFFD4;
+  }
+  a:visited {
+     color: #7FFFD4;
+  }
+  a:link {
+     color: #7FFFD4;
+  }
+
 .video {
   display: flex;
   justify-content: center;
@@ -53,4 +66,5 @@ h2 {
 .image2 {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
