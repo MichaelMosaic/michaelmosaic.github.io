@@ -1,67 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
-  background-color: #000000;
+    padding: 3rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
 }
 
 h1 {
-  color: #FFFFFF;
-  font-family: Verdana;
-  font-size: 50px;
-  font-weight: normal;
-  display: flex;
-  justify-content: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: normal;
+    margin: 0 0 5rem 0;
 }
 
 h2 {
-  color: #808080;
-  font-family: Verdana;
-  font-size: 21px;
-  font-weight: normal;
-  display: flex;
-  justify-content: center;
+    color: white;
+    font-size: 4.2rem;
+    font-weight: 300;
+    margin: 3rem 0 3rem 0;
 }
 
-.download {
-  color: #7FFFD4;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  a {
-     color: #7FFFD4;
-  }
-  a:hover {
-     color: #7FFFD4;
-  }
-  a:visited {
-     color: #7FFFD4;
-  }
-  a:link {
-     color: #7FFFD4;
-  }
+a, .link {
+    color: aquamarine;
+    font-size: 1.6rem;
+    margin: 0 0 3rem 0;
 }
 
-  a {
-     color: #7FFFD4;
-  }
-  a:hover {
-     color: #7FFFD4;
-  }
-  a:visited {
-     color: #7FFFD4;
-  }
-  a:link {
-     color: #7FFFD4;
-  }
-
-
-.image {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-padding-bottom: 20px;
+p {
+    color: gray;
+    font-size: 2.1rem;
+    margin: 0 0 3rem 0;
 }
 
-.image2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    margin: 0 0 3rem 0;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 28.75em) {
+    video {
+        width: 90vw;
+    }
+
+    #camp {
+        width: 90vw;
+    }
+}
+
+#phone-icon {
+    margin: 0 0 1rem 0;
+}
+
+#copyright {
+    text-align: right;
+    line-height: 2rem;
+    margin: 3rem 0 1rem 0;
 }
