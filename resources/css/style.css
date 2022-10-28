@@ -55,6 +55,7 @@ h2 {
 .video {
   display: flex;
   justify-content: center;
+  width: 400px;
 }
 
 .image {
