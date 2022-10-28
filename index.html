@@ -1,20 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+<html lang="en">
+    <head>
+        <title>Excursion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Discover hidden places in the world around you</h1>
+            <a href="#"><p class="link">Download Excursion (Coming soon!)</p></a>
+        </header>
 
-  <body>
-    <h1>Discover hidden places in the world around you</h1>
-      <div class="download"><a href="www.google.com">Download Excursion (Coming soon!)</a></p></div>
-<video preload="true" autoplay="" muted="" loop="loop"><br>
-<source src="resources/excursion.mp4" type="video/mp4"><br>
-</video>
-     <h1>Your personal travel guide</h1>
-     <h2>Excursion remembers places you like, and recommends new points of interest around you.</h2>
-      <div class="image"><img src="https://content.codecademy.com/programs/freelance-one/excursion/resources/images/camp.jpg"></div>
-      <div class="image2"><img src="https://content.codecademy.com/programs/freelance-one/excursion/resources/images/phone.png"></div>
-    <h1>Coming Soon for iPhone and Android</h1>
-      <div class="download"><a href="www.google.com">Download Excursion (Coming soon!)</a></p></div>
-  </body>
+        <main>
+            <!--VIDEO-->
+            <video src="./resources/excursion.mp4" type="video/mp4" autoplay muted loop>Video not supported</video>
+            
+            <h2>Your personal travel guide</h2>
+            <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+            
+            <!--Image of campsite during dusk-->
+            <figure>
+                <img id="camp" src="./resources/images/camp.webp" alt="Tents on a campsite during dusk" />
+            </figure>
+            
+            <!--Phone icon-->>
+            <img id="phone-icon" src="./resources/images/phone.webp" alt="">
+            <h2>Coming Soon for iPhone and Android</h2>
+            <a href="#"><p class="link">Download Excursion (Coming soon!)</p></a>
+        </main>
 
+        <!--Footer containing copyright-->
+        <footer>
+            <p id="copyright">&copy; Excursion</p>
+        </footer>
+    </body>
 </html>
-
