@@ -10,8 +10,12 @@ h1 {
   justify-content: center;
 }
 
-.download a {
+.download {
   color: #7FFFD4;
+  text-align: center;
+  a {
+     color: #7FFFD4;
+  }
 }
 
 
